@@ -1,22 +1,21 @@
 {
   "name": "react-force-graph",
   "version": "1.11.0",
-  "description": "React component for 2D, 3D and VR force directed graphs",
+  "description": "React component for 2D and 3D force directed graphs",
   "unpkg": "dist/react-force-graph.min.js",
   "main": "dist/react-force-graph.common.js",
   "module": "dist/react-force-graph.module.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vasturiano/react-force-graph.git"
+    "url": "git+https://github.com/rstuven/react-force-graph.git"
   },
-  "homepage": "https://github.com/vasturiano/react-force-graph",
+  "homepage": "https://github.com/rstuven/react-force-graph",
   "keywords": [
     "react",
     "force",
     "graph",
     "3d",
     "2d",
-    "vr",
     "three",
     "webgl",
     "canvas"
@@ -37,7 +36,6 @@
   },
   "dependencies": {
     "3d-force-graph": "^1.39.0",
-    "3d-force-graph-vr": "1.20.0",
     "force-graph": "^1.8.0",
     "kapsule": "^1.9.1",
     "prop-types": "^15.6.2",

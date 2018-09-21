@@ -82,12 +82,3 @@ export const ForceGraph3DPropTypes = Object.assign({},
     enableNavigationControls: PropTypes.bool
   }
 );
-
-export const ForceGraphVRPropTypes = Object.assign({},
-  commonPropTypes,
-  threeBasedPropTypes,
-  {
-    nodeDesc: PropTypes.oneOfType([PropTypes.string, PropTypes.func]),
-    linkDesc: PropTypes.oneOfType([PropTypes.string, PropTypes.func]),
-  }
-);
